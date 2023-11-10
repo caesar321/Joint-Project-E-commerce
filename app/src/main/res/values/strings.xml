@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">jointProject</string>
+    <string name="string_title1">Buy Products Online</string>
+    <string name="string_title2">Meet and connect with online traders</string>
+    <string name="string_title3">Payment are fast and reliable</string>
+    <string name="string_des1">A platform where buyers and sellers meet and connect</string>
+    <string name="string_des2">Meet and connect with traders all over the nation sha..</string>
+    <string name="string_des3">Payment are fast and reliable and easier sha..</string>
+    <string name="Welcome">Welcome</string>
+</resources>

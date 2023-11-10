@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A020F0"
+    tools:context=".SplashScreenActivity">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="18dp"
+        android:elevation="8dp"
+        android:background="#A020F0"
+        app:cardElevation="6dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#5729CE">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="welcome to "
+                android:textColor="#FAFAFA"
+                android:layout_centerInParent="true"
+                android:id="@+id/wellcome"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/wellcome"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="1dp"
+                android:text="Trollz"
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                android:textStyle="italic|bold" />
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="30dp"
+                android:id="@+id/btnGetStarted"
+                android:text="Get Started"
+                android:textColor="#5729CE"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+                app:cornerRadius="10dp"
+                android:backgroundTint="@color/white"/>
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>
